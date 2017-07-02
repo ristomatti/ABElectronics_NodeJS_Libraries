@@ -1,6 +1,6 @@
 {
   "name": "abelectronics",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "AB Electronics NodeJS Libraries",
   "main": "index.js",
   "directories": {
