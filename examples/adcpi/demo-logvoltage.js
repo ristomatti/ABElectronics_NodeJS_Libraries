@@ -11,7 +11,7 @@
 
 // Sample rate can be 12, 14, 16 or 18
 
-var adcpi = require('../../lib/adcpi/adcpi');
+var ADCPi = require('../../index').ADCPi;
 var fs = require('fs');
 
 var logStream = fs.createWriteStream('./logFile.log', { flags: 'a' });
