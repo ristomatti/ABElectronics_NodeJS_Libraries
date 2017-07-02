@@ -5,6 +5,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
+      "no-var": "error",
       "no-unused-vars": "off",
       "no-constant-condition": "off",
       "no-mixed-spaces-and-tabs": "off"
