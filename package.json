@@ -1,0 +1,30 @@
+{
+  "name": "abelectronics",
+  "version": "0.0.1",
+  "description": "AB Electronics NodeJS Libraries",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint index.js lib || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelectronicsuk/ABElectronics_NodeJS_Libraries.git"
+  },
+  "author": "ABElectronics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abelectronicsuk/ABElectronics_NodeJS_Libraries/issues"
+  },
+  "homepage": "https://github.com/abelectronicsuk/ABElectronics_NodeJS_Libraries#readme",
+  "dependencies": {
+    "rpio": "^0.9.17",
+    "strict-mode": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  }
+}
